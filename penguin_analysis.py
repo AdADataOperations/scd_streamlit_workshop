@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import streamlit as st
-
 from penguins import Penguins
+
 
 def _define_slider(data, col_name, k):
     col_min = int(data[col_name].min()//1)
