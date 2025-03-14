@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import streamlit as st
-from streamlit import multiselect
 
 from penguins import Penguins
 
